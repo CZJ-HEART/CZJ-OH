@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+此步骤用于小白获取源代码后再电脑上运行项目使用，有经验的朋友请自便
+抖音视频链接：
+第一步：
+https://github.com/CZJ-HEART/CZJ-OH
+进入这个网址
+进入之后点击绿色的按钮“code”
+选https
+然后里面有一个“Download zip”点击以后就可以下载源代码了
 
-# Run and deploy your AI Studio app
+第二步：
+将zip压缩文件放到你电脑的某一个固定位置，然后解压他
+打开下面链接
+https://nodejs.org/dist/v24.11.1/node-v24.11.1-x64.msi
+下载node.js，不然你没办法安装依赖
+（安装都看得懂，我视频里面会讲）
 
-This contains everything you need to run your app locally.
+第三步：
+对着你解压出来的文件夹，右键，用终端打开
+输入命令：npm install
+然后要等一会，等到你的文件名出来
+然后在输入npm run dev
+里面就有网址可以让你打开这个项目了。
 
-View your app in AI Studio: https://ai.studio/apps/drive/17-NMn3wtSgzDw01eYvvnscIPPrqe4rv5
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+其他细节可以看视频
+视频链接是：
